@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+ /*nav bar*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/*hero/jumbotron*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +79,27 @@ p {
     margin-left: 20px;
 }
 
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services img {
+    max-height: 200px;
+    border: solid 2px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*right-hand column section*/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,7 +116,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-parts h3 {
+.benefit-parts h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -100,25 +125,10 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    border: #ffffff solid 2px;
 }
 
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.services img {
-    max-height: 200px;
-}
-
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*footer*/
 
 .footer {
     padding: 30px;
